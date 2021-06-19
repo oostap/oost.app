@@ -39,7 +39,7 @@ Preloader Styles
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ffffff;
+  background-color: #1A134C;
 }
 
 .cssload-loader {
@@ -53,7 +53,7 @@ Preloader Styles
   left: -moz-calc(50% - 6px);
   top: 50%;
   border-radius: 12px;
-  background-color: #c0392b;
+  background-color: #41FFFF;
   transform-origin: 50% 50%;
   -o-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
@@ -69,7 +69,7 @@ Preloader Styles
 .cssload-loader:before {
   content: "";
   position: absolute;
-  background-color: #c0392b;
+  background-color: #41FFFF;
   top: 0px;
   left: -25px;
   height: 12px;
@@ -80,7 +80,7 @@ Preloader Styles
 .cssload-loader:after {
   content: "";
   position: absolute;
-  background-color: #c0392b;
+  background-color: #41FFFF;
   top: 0px;
   left: 25px;
   height: 12px;
