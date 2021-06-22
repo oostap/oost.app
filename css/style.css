@@ -771,7 +771,7 @@ Video Description Styles
 Screenshot Styles
 ------------------------*/
 .screen-mock {
-  background-image: url(../images/mocks/screenshot.png);
+  /* background-image: url(../images/mocks/screenshot.png); */
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
