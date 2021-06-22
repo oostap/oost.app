@@ -143,20 +143,20 @@ $(document).ready(function () {
     /*-----------------------------------
     Subscription
     -----------------------------------*/
-    $(".subscription").ajaxChimp({
-        callback: mailchimpResponse,
-        url: "http://codepassenger.us10.list-manage.com/subscribe/post?u=6b2e008d85f125cf2eb2b40e9&id=6083876991" // Replace your mailchimp post url inside double quote "".  
-    });
+    // $(".subscription").ajaxChimp({
+    //     callback: mailchimpResponse,
+    //     url: "http://codepassenger.us10.list-manage.com/subscribe/post?u=6b2e008d85f125cf2eb2b40e9&id=6083876991" // Replace your mailchimp post url inside double quote "".  
+    // });
 
-    function mailchimpResponse(resp) {
-        if (resp.result === 'success') {
+    // function mailchimpResponse(resp) {
+    //     if (resp.result === 'success') {
 
-            $('.newsletter-success').html(resp.msg).fadeIn().delay(3000).fadeOut();
+    //         $('.newsletter-success').html(resp.msg).fadeIn().delay(3000).fadeOut();
 
-        } else if (resp.result === 'error') {
-            $('.newsletter-error').html(resp.msg).fadeIn().delay(3000).fadeOut();
-        }
-    }
+    //     } else if (resp.result === 'error') {
+    //         $('.newsletter-error').html(resp.msg).fadeIn().delay(3000).fadeOut();
+    //     }
+    // }
 
     //Steller Parallax
     $(window).stellar({
@@ -177,5 +177,5 @@ $(document).ready(function () {
 Preloader    
 --------------------------------------*/
 $(window).on('load', function () {
-    $('#loader-wrap').delay(200).fadeOut();
+    $('#loader-wrap').delay(100).fadeOut();
 });

@@ -1180,7 +1180,22 @@ Subscription Styles
   margin-left: 20px;
   margin-top: 0;
 }
-
+.subscription *[type=normal] {
+  font-size: 1.4rem;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  color: #c0392b;
+  background-color: #ffffff;
+  border: none;
+  line-height: 52px;
+  width: 200px;
+  padding: 0;
+  text-align: center;
+  border-radius: 26px;
+  float: right;
+  margin-left: 20px;
+  margin-top: 0;
+}
 /*------------------------
 Footer Styles
 ------------------------*/
