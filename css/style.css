@@ -878,11 +878,15 @@ Support Styles
 ----------------------------------------*/
 .support-tabs .nav-tabs {
   border: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
 .support-tabs .nav-tabs > li {
   margin-bottom: 0;
   width: 16.666666%;
-  padding: 0 15px;
+  padding: 0 5px;
+  flex: 1;
 }
 .support-tabs .nav-tabs > li > a {
   border: 1px solid #c0392b;
