@@ -474,14 +474,14 @@ Navbar Styles
   color: #ffffff;
 }
 .navbar-default .navbar-nav > li > a:hover {
-  color: #c0392b;
+  color: #41feff;
 }
 .navbar-default .navbar-nav > li.active a {
   background-color: transparent;
-  color: #c0392b;
+  color: #41feff;
 }
 .navbar-default .navbar-nav > li.active a:focus, .navbar-default .navbar-nav > li.active a:hover, .navbar-default .navbar-nav > li.active a:visited {
-  color: #c0392b;
+  color: #41feff;
   background-color: transparent;
 }
 .navbar-default.affix {
