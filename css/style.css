@@ -1646,3 +1646,8 @@ Blog Single Page Styles
   color: #c0392b;
   text-decoration: none;
 }
+
+
+.commenter-thumb img{
+      height: inherit;
+}
