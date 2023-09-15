@@ -1651,3 +1651,41 @@ Blog Single Page Styles
 .commenter-thumb img{
       height: inherit;
 }
+
+.finam-action-left img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.finam-action-right .intro-icon {
+    margin: 22px 0px;
+}
+span {
+  color: #c0392b;
+}
+.finam-action {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.finam-action .intro-icon span {
+  font-size: 4rem;
+  line-height: 1;
+  color: #c0392b;
+}
+.finam-action-right {
+  margin: 22px 0 0 0;
+}
+.finam-action-right .col-sm-4{
+  visibility: visible;
+  animation-duration: 1.5s;
+  animation-delay: 0s;
+  animation-name: fadeInUp;
+  text-align: center;
+  padding: 30px 35px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+.finam-action-right .col-sm-4:hover {
+  border-color: #c0392b;
+}

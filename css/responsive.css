@@ -1,5 +1,5 @@
 /*---------------------
-All responsive css rule 
+All responsive css rule
 ----------------------*/
 @media (max-width: 1199px) {
   br {
@@ -445,6 +445,9 @@ All responsive css rule
   }
 }
 @media (max-width: 479px) {
+  ul.nav.nav-tabs {
+    overflow: auto;
+  }
   .button-group .btn {
     display: block;
     width: 100%;
